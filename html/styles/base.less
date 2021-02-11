@@ -1,0 +1,83 @@
+// main: ./styles.less
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    color: white;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+a,
+a:focus,
+a:hover,
+a:link,
+a:visited {
+    color: @link-color;
+    text-decoration: none;
+    font-family: 'EarthOrbiter';
+    transition: 1s ease;
+}
+
+a:hover {
+    color: @link-color-hover;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.clear {
+    clear: both;
+}
+// formulaire
+form {
+    color: @base-color;
+
+    input {
+        display: block;
+        color: @text-color;
+        padding: 0 5px;
+    }
+
+    legend {
+        color: @base-color;
+    }
+
+    textarea {
+        min-height: 200px;
+        resize: vertical;
+        color: @text-color;
+        min-width: 400px;
+        @media @landscape-smartphones, @portrait-smartphones {
+            min-width: 243px;
+        }
+    }
+
+    .btn {
+      float: right;
+      margin-bottom: 6px;
+    }
+
+    .has-feedback label ~ .form-control-feedback {
+        top: 40px;
+    }
+}

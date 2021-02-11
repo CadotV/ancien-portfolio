@@ -1,0 +1,216 @@
+// main: ./styles.less
+@import "media.less";
+/* ---LAYOUTS--- */
+.l-author,
+.l-container,
+.l-content,
+.l-content-container,
+.l-footer,
+.l-header,
+.l-main-container,
+.l-main-nav,
+.l-sidebar-left {
+    display: block;
+}
+
+.l-main-container {
+    max-width: 2400px;
+    margin: 0 auto;
+}
+
+.l-container {
+    max-width: 980px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.l-content-container {
+    max-width: 980px;
+    margin: 0 auto;
+    @media @landscape-tablets, @portrait-tablets {
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    @media @landscape-smartphones, @portrait-smartphones {}
+}
+// sidebar
+
+.l-sidebar-left {
+    position: fixed;
+    top: 40px;
+    height: 100%;
+    width: 280px;
+    margin: 0;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    overflow-y: auto;
+    z-index: 4;
+    // overflow-y: scroll;
+    clear: both;
+    @media @desktops {}
+    @media @landscape-tablets, @portrait-tablets {
+        display: none;
+    }
+    @media @landscape-smartphones, @portrait-smartphones {
+        display: none;
+    }
+}
+
+.l-sidebar-left-tablet {
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    height: 40px;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    border-bottom: @header-border;
+    box-shadow: 0 4px 2px -2px darken(@header-color, 20%);
+    z-index: 4;
+    @media @desktops {
+        display: none;
+    }
+    @media @landscape-tablets, @portrait-tablets {}
+    @media @landscape-smartphones, @portrait-smartphones {
+        display: none;
+    }
+}
+
+.l-sidebar-left-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    margin: 0;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    overflow-y: auto;
+    z-index: 10;
+    transition: 1s ease;
+    // overflow-y: scroll;
+    clear: both;
+    @media @desktops {}
+    @media @landscape-tablets, @portrait-tablets {}
+    @media @landscape-smartphones, @portrait-smartphones {
+        display: block;
+    }
+}
+// Topbar
+
+.l-header {
+    position: fixed;
+    min-height: 40px;
+    width: 100%;
+    max-width: 2400px;
+    margin: 0;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    border-bottom: @header-border;
+    box-shadow: 0 4px 2px -2px darken(@header-color, 20%);
+    z-index: 5;
+
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: -moz-linear-gradient(to bottom, rgba(30,87,153,0) 80%, rgba(0, 162, 179, 0.12) 100%);
+        background: -webkit-linear-gradient(to bottom, rgba(30,87,153,0) 80%, rgba(0, 162, 179, 0.12) 100%);
+        background: linear-gradient(to bottom, rgba(30,87,153,0) 80%, rgba(0, 162, 179, 0.12) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=  '#001e5799', endColorstr='#232b2c', GradientType=0);
+    }
+    @media @landscape-tablets, @portrait-tablets {}
+    @media @landscape-smartphones, @portrait-smartphones {}
+}
+
+.l-author {
+    border-radius: 100%;
+    width: 280px;
+    height: 40px;
+    float: left;
+    @media @landscape-tablets, @portrait-tablets {}
+    @media @landscape-smartphones, @portrait-smartphones {
+        width: initial;
+        margin: 0;
+        float: left;
+    }
+}
+
+.l-main-nav {
+    height: 40px;
+    float: left;
+    // @media @landscape-smartphones, @portrait-smartphones {
+    //     display: block;
+    // }
+}
+
+.l-second-nav {
+    float: right;
+    margin-right: 20px;
+    height: 40px;
+    line-height: 40px;
+    @media @landscape-smartphones, @portrait-smartphones {
+        display: none;
+    }
+}
+
+.l-second-nav-mobile {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 280px;
+    margin: 0;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    overflow-y: auto;
+    z-index: 10;
+    transition: 1s ease;
+    // overflow-y: scroll;
+    clear: both;
+    @media @desktops {
+        display: none;
+    }
+    @media @landscape-tablets, @portrait-tablets {
+        display: none;
+    }
+    @media @landscape-smartphones, @portrait-smartphones {}
+}
+// content
+
+.l-content {
+    font-family: 'Roboto', sans-serif;
+    background: @content-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    margin-left: 280px;
+    padding-top: 40px;
+    font-size: 18px;
+    @media @desktops {}
+    @media @landscape-tablets, @portrait-tablets {
+        padding-top: 80px;
+        margin-left: 0;
+        position: inherit;
+    }
+    @media @landscape-smartphones, @portrait-smartphones {
+        margin-left: 0;
+        position: inherit;
+    }
+}
+// footer
+
+.l-footer {
+    height: 100px;
+    text-align: center;
+    color: #eee;
+    background: @header-color url(../../images/alpha-noisy-texture.png) repeat 0 0;
+    margin-left: 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    p {
+        margin-bottom: 15px;
+    }
+    @media @landscape-tablets, @portrait-tablets {
+        margin-left: 0;
+    }
+    @media @landscape-smartphones, @portrait-smartphones {
+        margin-left: 0;
+    }
+}

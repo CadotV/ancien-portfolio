@@ -1,0 +1,304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cadotvalentin-trad\n"
+"POT-Creation-Date: 2016-10-20 21:34+0200\n"
+"PO-Revision-Date: 2016-10-20 21:39+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: T_\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: audios\n"
+"X-Poedit-SearchPathExcluded-1: images\n"
+"X-Poedit-SearchPathExcluded-2: international\n"
+"X-Poedit-SearchPathExcluded-3: modules\n"
+"X-Poedit-SearchPathExcluded-4: scripts\n"
+"X-Poedit-SearchPathExcluded-5: styles\n"
+
+#: index.php:57
+msgid "If you want to contact me"
+msgstr "If you want to contact me"
+
+#: index.php:66
+msgid "Subject"
+msgstr "Subject"
+
+#: index.php:70
+msgid "Enter your message here"
+msgstr "Enter your message here"
+
+#: index.php:72 index.php:105
+msgid "Submit"
+msgstr "Submit"
+
+#: index.php:129
+msgid "About me-sidebar-left-mobile"
+msgstr "About me"
+
+#: index.php:138
+msgid "Programing-sidebar-left-mobile"
+msgstr "Programing"
+
+#: index.php:147
+msgid "Infographics-sidebar-left-mobile"
+msgstr "Infographics"
+
+#: index.php:156
+msgid "Music-sidebar-left-mobile"
+msgstr "Music"
+
+#: index.php:165
+msgid "Skills-sidebar-left-mobile"
+msgstr "Skills"
+
+#: index.php:179 index.php:227
+msgid "About me-sidebar-left"
+msgstr "About me"
+
+#: index.php:187 index.php:236
+msgid "Programing_test-sidebar-left"
+msgstr "Programing"
+
+#: index.php:195 index.php:248
+msgid "Infographics-sidebar-left"
+msgstr "Infographics"
+
+#: index.php:203 index.php:261
+msgid "Music-sidebar-left"
+msgstr "Music"
+
+#: index.php:211 index.php:273
+msgid "Skills-sidebar-left"
+msgstr "Skills"
+
+#: index.php:239 index.php:333
+msgid "Web Development and Integration"
+msgstr "Web Development and Integration"
+
+#: index.php:251
+msgid "Digital painting"
+msgstr "Digital painting"
+
+#: index.php:252 index.php:430
+msgid "3D modeling"
+msgstr "3D modeling"
+
+#: index.php:264
+msgid "Electric guitar"
+msgstr "Electric guitar"
+
+#: index.php:276 index.php:520
+msgid "Front-End development"
+msgstr "Front-End development"
+
+#: index.php:277 index.php:534
+msgid "Back-End development"
+msgstr "Back-End development"
+
+#: index.php:278 index.php:546
+msgid "CMS"
+msgstr "CMS"
+
+#: index.php:279 index.php:556
+msgid "Other language"
+msgstr "Other language"
+
+#: index.php:280 index.php:567
+msgid "Infographics"
+msgstr "Infographics"
+
+#: index.php:294
+msgid "Presentation"
+msgstr "Presentation"
+
+#: index.php:306
+msgid "Welcome !"
+msgstr "Welcome !"
+
+#: index.php:308
+msgid ""
+"Je suis actuellement en formation professionnelle à l'IFOCOP à Paris XI. "
+"Passionné par l'informatique, le developpement web et l'infographie, je "
+"souhaite allier ces passions à mon quotidien !"
+msgstr ""
+"I am currently following a professional learning at Paris IX at Ifocop. "
+"My hobbies are computing science, web development and digital arts, "
+"and i would love to train those every day"
+
+#: index.php:309
+msgid ""
+"Souhaitant toujours en apprendre d'avantage, je travail actuellement sur une "
+"application Web base sur Electron et NodeJs qui permettra a l'utilisateur de "
+"generer une planete en 3D avec des parametres au prealable choisis ou "
+"aleatoires."
+msgstr ""
+"I am currently working on a web application based on Electron and NodeJs "
+"which will allow user to generate a 3D planet with custom or random "
+"parameters."
+
+#: index.php:310
+msgid ""
+"L'interface de l'application sera divisee en deux blocs. A gauche les "
+"parametres a choisir et a droite un bloc utilisant l'API WebGl"
+msgstr ""
+"Web application Interface will be at first divide in 2 panel. On the left "
+"side, custom or random parameters and on the right side a canvas showing the "
+"3D planet, using WebGL and Three.js"
+
+#: index.php:323
+msgid "Programmation"
+msgstr "Programing"
+
+#: index.php:337
+msgid "Helen Keller website"
+msgstr "Helen Keller website"
+
+#: index.php:338
+msgid ""
+"First website developed during my professional training. Spectrum javascript "
+"is used to pick a color and layout the body with it. A complementary color "
+"layout the header, calculated by subtracting selected color RBG values to "
+"the white RBG values (255,255,255)."
+msgstr ""
+"First website developed during my professional training. Spectrum javascript "
+"is used to pick a color and layout the body with it. A complementary color "
+"layout the header, calculated by subtracting selected color RBG values to "
+"the white RBG values (255,255,255)."
+
+#: index.php:342 index.php:352
+msgid "View website"
+msgstr "View website"
+
+#: index.php:347
+msgid "Cooking list website"
+msgstr "Cooking list website"
+
+#: index.php:348
+msgid ""
+"Second website developed during my professional training. The goal was to "
+"use a collection of video for the header background. Turn by turn, they are "
+"displayed using the property display:block or hidden with display:none. Some "
+"icon are used to change the opacity of a paragraphe."
+msgstr ""
+"Second website developed during my professional training. The goal was to "
+"use a collection of video for the header background. Turn by turn, they are "
+"displayed using the property display:block or hidden with display:none. Some "
+"icon are used to change the opacity of a paragraphe."
+
+#: index.php:365
+msgid "Infographie"
+msgstr "Infographics"
+
+#: index.php:375
+msgid "Digital painting with Photoshop / Illustrator"
+msgstr "Digital painting with Photoshop / Illustrator"
+
+#: index.php:381 index.php:383 index.php:393
+msgid "Gnomish"
+msgstr "Gnomish"
+
+#: index.php:387
+msgid "Succube"
+msgstr "Succube"
+
+#: index.php:389
+msgid "Succube head"
+msgstr "Succube head"
+
+#: index.php:395
+msgid "Gnomish version of Valeera in Heartstone"
+msgstr "Gnomish version of Valeera in Heartstone"
+
+#: index.php:399
+msgid "Website template"
+msgstr "Website template"
+
+#: index.php:401 index.php:407
+msgid "Template of website made using Photoshop and HTML / CSS"
+msgstr "Template of website made using Photoshop and HTML / CSS"
+
+#: index.php:405
+msgid "Girl face"
+msgstr "Girl face"
+
+#: index.php:411
+msgid "Human skull painted with Photoshop"
+msgstr "Human skull painted with Photoshop"
+
+#: index.php:413 index.php:419
+msgid "Digital painting using an Intuos 3 graphic tablet"
+msgstr "Digital painting using an Intuos 3 graphic tablet"
+
+#: index.php:417
+msgid "Lion head painted with Photoshop"
+msgstr "Lion head painted with Photoshop"
+
+#: index.php:423
+msgid "Website logo created using Illustrator and Photoshop"
+msgstr "Website logo created using Illustrator and Photoshop"
+
+#: index.php:425
+msgid ""
+"DreamStone website Logo made with Illustrator and polished with Photoshop"
+msgstr ""
+"DreamStone website Logo made with Illustrator and polished with Photoshop"
+
+#: index.php:436
+msgid "3D orc head"
+msgstr "3D orc head"
+
+#: index.php:438
+msgid "3D orc head made with Zbrush"
+msgstr "3D orc head made with Zbrush"
+
+#: index.php:442 index.php:448 index.php:454 index.php:460
+msgid "Sand mapping"
+msgstr "Sand mapping"
+
+#: index.php:444
+msgid "Diffuse map, 3d made using Zbrush"
+msgstr "Diffuse map, 3d made using Zbrush"
+
+#: index.php:450
+msgid "Normal map"
+msgstr "Normal map"
+
+#: index.php:456
+msgid "Depth map"
+msgstr "Depth map"
+
+#: index.php:462
+msgid "Specular map"
+msgstr "Specular map"
+
+#: index.php:476
+msgid "Musique"
+msgstr "Music"
+
+#: index.php:487
+msgid "Electric guitar record"
+msgstr "Electric guitar record"
+
+#: index.php:490
+msgid ""
+"Simple electric guitar record using Cubase 5 and an input device Prodipe 2"
+msgstr ""
+"Simple electric guitar record using Cubase 5 and an input device Prodipe 2"
+
+#: index.php:495
+msgid "Your web browser is not compatible"
+msgstr "Your web browser is not compatible"
+
+#: index.php:510
+msgid "competences"
+msgstr "Skills"
+
+#: index.php:594
+msgid "Publication director"
+msgstr "Publication director"

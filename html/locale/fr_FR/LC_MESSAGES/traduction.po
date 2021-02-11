@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cadotvalentin-trad\n"
+"POT-Creation-Date: 2016-10-20 20:58+0200\n"
+"PO-Revision-Date: 2016-10-20 21:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: T_\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: audios\n"
+"X-Poedit-SearchPathExcluded-1: images\n"
+"X-Poedit-SearchPathExcluded-2: international\n"
+"X-Poedit-SearchPathExcluded-3: modules\n"
+"X-Poedit-SearchPathExcluded-4: scripts\n"
+"X-Poedit-SearchPathExcluded-5: styles\n"
+
+#: index.php:57
+msgid "If you want to contact me"
+msgstr "Si vous souhaitez me contacter"
+
+#: index.php:66
+msgid "Subject"
+msgstr "Sujet"
+
+#: index.php:70
+msgid "Enter your message here"
+msgstr "Entrez votre message"
+
+#: index.php:72 index.php:105
+msgid "Submit"
+msgstr "Envoyer"
+
+#: index.php:129
+msgid "About me-sidebar-left-mobile"
+msgstr "Présentation"
+
+#: index.php:138
+msgid "Programing-sidebar-left-mobile"
+msgstr "Programmation"
+
+#: index.php:147
+msgid "Infographics-sidebar-left-mobile"
+msgstr "Infographie"
+
+#: index.php:156
+msgid "Music-sidebar-left-mobile"
+msgstr "Musique"
+
+#: index.php:165
+msgid "Skills-sidebar-left-mobile"
+msgstr "Compétences"
+
+#: index.php:179 index.php:227
+msgid "About me-sidebar-left"
+msgstr "Présentation"
+
+#: index.php:187 index.php:236
+msgid "Programing_test-sidebar-left"
+msgstr "Programmation"
+
+#: index.php:195 index.php:248
+msgid "Infographics-sidebar-left"
+msgstr "Infographie"
+
+#: index.php:203 index.php:261
+msgid "Music-sidebar-left"
+msgstr "Musique"
+
+#: index.php:211 index.php:273
+msgid "Skills-sidebar-left"
+msgstr "Compétences"
+
+#: index.php:239 index.php:333
+msgid "Web Development and Integration"
+msgstr "Développement et intégration web"
+
+#: index.php:251
+msgid "Digital painting"
+msgstr "Illustration"
+
+#: index.php:252 index.php:430
+msgid "3D modeling"
+msgstr "Modélisation 3D"
+
+#: index.php:264
+msgid "Electric guitar"
+msgstr "Guitare électrique"
+
+#: index.php:276 index.php:520
+msgid "Front-End development"
+msgstr "Développement Front-end"
+
+#: index.php:277 index.php:534
+msgid "Back-End development"
+msgstr "Développement Back-end"
+
+#: index.php:278 index.php:546
+msgid "CMS"
+msgstr "CMS"
+
+#: index.php:279 index.php:556
+msgid "Other language"
+msgstr "Autres langages"
+
+#: index.php:280 index.php:567
+msgid "Infographics"
+msgstr "Infographie"
+
+#: index.php:294
+msgid "Presentation"
+msgstr "Présentation"
+
+#: index.php:306
+msgid "Welcome !"
+msgstr "Bienvenue !"
+
+#: index.php:308
+msgid ""
+"I am currently following a professional learning at Paris IX at Ifocop. "
+"My hobbies are computing science, web development and digital arts, "
+"and i would love to train those every day"
+msgstr ""
+"Je suis actuellement en formation professionnelle à l'IFOCOP à Paris XI. "
+"Passionné par l'informatique, le developpement web et l'infographie, je "
+"souhaite allier ces passions à mon quotidien !"
+
+#: index.php:323
+msgid "Programmation"
+msgstr "Programmation"
+
+#: index.php:337
+msgid "Helen Keller website"
+msgstr "Site d'Helen Keller"
+
+#: index.php:338
+msgid ""
+"First website developed during my professional training. Spectrum javascript "
+"is used to pick a color and layout the body with it. A complementary color "
+"layout the header, calculated by subtracting selected color RBG values to "
+"the white RBG values (255,255,255)."
+msgstr ""
+"Premier site web développé durant ma formation professionnelle. Le script "
+"javascript Spectrum est ici utilisé pour choisir une couleur et l'appliquer "
+"au body de la page. Une couleur complémentaire est ajoutée au header et "
+"footer, calculée en soustrayant les valeurs RGB de la couleur choisie aux "
+"valeurs RGB du blanc (255,255,255)."
+
+#: index.php:342 index.php:352
+msgid "View website"
+msgstr "Voir le site"
+
+#: index.php:347
+msgid "Cooking list website"
+msgstr "Site de recettes de cuisine"
+
+#: index.php:348
+msgid ""
+"Second website developed during my professional training. The goal was to "
+"use a collection of video for the header background. Turn by turn, they are "
+"displayed using the property display:block or hidden with display:none. Some "
+"icon are used to change the opacity of a paragraphe."
+msgstr ""
+"Second site internet développé durant ma formation professionnelle. Le but "
+"ici a été d'ajouter des vidéos tournant en boucle dans le header. Elles sont "
+"toutes cachées à la base avec la propriété display: none; et sont ensuite "
+"montrés une par une avec un display:block. Des icônes sont également "
+"ajoutées aux paragraphes pour permettre à l'utilisateur de masquer le texte "
+"qu'il ne désir plus lire en changeant simplement l'opacité."
+
+#: index.php:365
+msgid "Infographie"
+msgstr "Infographie"
+
+#: index.php:375
+msgid "Digital painting with Photoshop / Illustrator"
+msgstr "Illustration avec Photoshop / Illustrator"
+
+#: index.php:381 index.php:383 index.php:393
+msgid "Gnomish"
+msgstr "Gnome"
+
+#: index.php:387
+msgid "Succube"
+msgstr "Succube"
+
+#: index.php:389
+msgid "Succube head"
+msgstr "Tête de succube"
+
+#: index.php:395
+msgid "Gnomish version of Valeera in Heartstone"
+msgstr "Version gnome de Valeera dans Hearthstone"
+
+#: index.php:399
+msgid "Website template"
+msgstr "Template de site web"
+
+#: index.php:401 index.php:407
+msgid "Template of website made using Photoshop and HTML / CSS"
+msgstr "Template de site web fait sous Photoshop puis HTML / CSS"
+
+#: index.php:405
+msgid "Girl face"
+msgstr "Visage"
+
+#: index.php:411
+msgid "Human skull painted with Photoshop"
+msgstr "Crânes humain réalisés sous Photoshop"
+
+#: index.php:413 index.php:419
+msgid "Digital painting using an Intuos 3 graphic tablet"
+msgstr "Illustrations avec une Intuos 3"
+
+#: index.php:417
+msgid "Lion head painted with Photoshop"
+msgstr "Têtes de lion de face et 3/4"
+
+#: index.php:423
+msgid "Website logo created using Illustrator and Photoshop"
+msgstr "Logo de site web réalisé avec Illustrator et finalisé sous Photoshop"
+
+#: index.php:425
+msgid ""
+"DreamStone website Logo made with Illustrator and polished with Photoshop"
+msgstr "Logo de site web réalisé avec Illustrator et finalisé sous Photoshop"
+
+#: index.php:436
+msgid "3D orc head"
+msgstr "Tête d'orc en 3D"
+
+#: index.php:438
+msgid "3D orc head made with Zbrush"
+msgstr "Tête d'orc 3D réalisée sous Zbrush"
+
+#: index.php:442 index.php:448 index.php:454 index.php:460
+msgid "Sand mapping"
+msgstr "Map de sable"
+
+#: index.php:444
+msgid "Diffuse map, 3d made using Zbrush"
+msgstr "map d'une texture type sable, réalisée en 3D sous Zbrush"
+
+#: index.php:450
+msgid "Normal map"
+msgstr "Normal map"
+
+#: index.php:456
+msgid "Depth map"
+msgstr "map de profondeur"
+
+#: index.php:462
+msgid "Specular map"
+msgstr "map de lumière spéculaire"
+
+#: index.php:476
+msgid "Musique"
+msgstr "Musique"
+
+#: index.php:487
+msgid "Electric guitar record"
+msgstr "Enregistrement guitare"
+
+#: index.php:490
+msgid ""
+"Simple electric guitar record using Cubase 5 and an input device Prodipe 2"
+msgstr ""
+"Enregistrement à la guitare électrique sous Cubase 5 avec un boîté "
+"d'acquisition Prodipe 2"
+
+#: index.php:495
+msgid "Your web browser is not compatible"
+msgstr "Votre navigateur web est incompatible"
+
+#: index.php:510
+msgid "competences"
+msgstr "Compétences"
+
+#: index.php:594
+msgid "Publication director"
+msgstr "Directeur de publication"
